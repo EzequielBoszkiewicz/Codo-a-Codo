@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: rgb(66, 66, 66);
+    display: flex;
+}
+.nav-link{
+    color: aliceblue;
+}
+.logo{
+    margin: 0 40vh 0 10vh;
+}
+.navegacion{
+    font-size: 17px;
+    font-weight: 400;
+}
+.carousel{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    
+}
+.carousel-inner{
+    filter: brightness(50%);
+}
+.hero{
+    height: 45vh;
+    width: 90vh;
+    text-align: end;
+    margin-right: 20vh;
+    margin-bottom: 20vh;
+    position: absolute;
+    
+    
+}
+.hero_title{
+    color: white;
+    display: block;
+    
+}
+.hero_p{
+    color: white;
+    
+}
+section{
+    width: 100%;
+    text-align: center;
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card{
+    margin: 0 0.8rem 0.8rem 0.8rem;
+    text-align: justify;
+    font-size: 0.9rem;
+}
+.card-subtitle{
+    display: inline;
+}
+.sub{
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 2px;
+    border-radius: 5%;
+}
+.Javascript{
+    background-color:rgb(255, 238, 0);
+}
+.React{
+    color: white;
+    background-color: rgb(70, 174, 249);
+}
+.negocios{
+    color: white;
+    background-color: dimgray;
+}
+.startups{
+    color: white;
+    background-color: brown;
+}
+.octubre{
+    display: flex;
+    height: 54vh;
+    font-size: 0.8rem;
+}
+.img{
+    border: 1px solid white;
+}
+.texto{
+    background-color: rgb(66, 66, 66);
+    padding: 1rem;
+    border: 1px solid white;
+    color: white;
+}
+.boton{
+    border: 1px solid white;
+    border-radius: 5%;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    padding: 4px;
+}
+.orador{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.formulario{
+    width: 50%;
+}
+.hermanos{
+    width: 100%;
+    display: flex;
+}
+.nombre{
+    display: block;
+    width: 50%;
+}
+.apellido{
+    display: block;
+    width: 50%;
+    margin-left: 2rem;
+}
+.enviar{
+    width: 100%;
+    border-radius: 5%;
+    color: white;
+    background-color: rgb(154, 239, 27);
+    padding: 4px;
+    border: 0;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    width: 6rem;
+}
+.anclas{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    align-items: center;
+}
+footer{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(29, 71, 95);
+    justify-content: center;
+}
+@media (max-width: 600px) {
+    *{
+        background-color:rgb(101, 100, 100);
+    }
+    .carousel{
+        display: block;
+    }
+    .hero{
+        text-align: center;
+        width: 100%;
+        height: 20rem;
+        display: block;
+    }
+    .hero_title
+    {
+        color: black;
+    }
+    .hero_p{
+        color: black;
+    }
+    .hero_btn{
+        color: black;
+    }
+    .oradores{
+        margin-top: 20rem;
+    }
+    .octubre{
+        height: 100%;
+    }
+    .a{
+        background-color: rgb(29, 71, 95);
+    }
+    .anclas{
+       display: flex;
+       flex-direction: column;
+       background-color:rgb(29, 71, 95) ;
+    }
+    footer{
+        height: 18rem;
+    }
+}
